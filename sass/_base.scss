@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+/* Primary Colors
+--------------------------------------*/
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+
+/* Neutral Colors
+--------------------------------------*/
+$very-dark-blue: hsl(234, 12%, 34%);
+$grayish-blue: hsl(229, 6%, 66%);
+$very-light-gray: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
+$gray-shadow: hsl(0, 0%, 90%);
+
+/* Colors by element
+--------------------------------------*/
+$clr-bg-body: $very-light-gray;
+$clr-bg-card: $white;
+$clr-border-1: $cyan;
+$clr-border-2: $red;
+$clr-border-3: $orange;
+$clr-border-4: $blue;
+$clr-txt-header: $very-dark-blue;
+$clr-txt-paragraph: $grayish-blue;
+$clr-txt-attribution: $very-dark-blue;
+$clr-txt-attribution-a: $grayish-blue;
+$clr-txt-attribution-a-hover: $orange;
+
+/* Breakpoints
+--------------------------------------*/
+$breakpoint-md: 768px;
+$breakpoint-lg: 1000px;
+
+/* Typography
+--------------------------------------*/
+$font-size: 15px;
+$ff-primary: 'Poppins', sans-serif;
+
+/* Reset
+--------------------------------------*/
+html,
+body,
+main,
+h1,
+h2,
+p,
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

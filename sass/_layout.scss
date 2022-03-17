@@ -1,0 +1,40 @@
+html {
+  height: auto;
+}
+body {
+  font-family: $ff-primary;
+  background-color: $clr-bg-body;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 30rem;
+  @media (min-width: $breakpoint-md) {
+    max-width: 73.5rem;
+  }
+}
+.attribution {
+  color: $clr-txt-attribution;
+  padding: 0 2rem 2rem 2rem;
+  text-align: center;
+  font-size: 0.825rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.3rem;
+  a {
+    color: $clr-txt-attribution-a;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $clr-txt-attribution-a-hover;
+    text-decoration: none;
+  }
+}

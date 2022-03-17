@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+/* Primary Colors
+--------------------------------------*/
+/* Neutral Colors
+--------------------------------------*/
+/* Colors by element
+--------------------------------------*/
+/* Breakpoints
+--------------------------------------*/
+/* Typography
+--------------------------------------*/
+/* Reset
+--------------------------------------*/
+html,
+body,
+main,
+h1,
+h2,
+p,
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: auto;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 30rem;
+}
+@media (min-width: 768px) {
+  main {
+    max-width: 73.5rem;
+  }
+}
+
+.attribution {
+  color: #4c4e61;
+  padding: 0 2rem 2rem 2rem;
+  text-align: center;
+  font-size: 0.825rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.3rem;
+}
+.attribution a {
+  color: #a3a5ae;
+  text-decoration: none;
+}
+.attribution a:hover {
+  color: #fcaf4a;
+  text-decoration: none;
+}
+
+/* Header
+--------------------------------------*/
+.header {
+  padding: 5.2rem 1.9rem 0 1.9rem;
+}
+@media (min-width: 768px) {
+  .header {
+    padding: 5rem 1.9rem 0 1.9rem;
+  }
+}
+.header .header-content {
+  text-align: center;
+}
+.header .header-content h1 {
+  color: #4c4e61;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+@media (min-width: 768px) {
+  .header .header-content h1 {
+    font-size: 2.2rem;
+    letter-spacing: 0.03rem;
+  }
+}
+.header .header-content h2 {
+  color: #4c4e61;
+  font-weight: 600;
+}
+@media (min-width: 768px) {
+  .header .header-content h2 {
+    font-size: 2.2rem;
+    letter-spacing: 0.04rem;
+  }
+}
+.header .header-content p {
+  color: #a3a5ae;
+  font-size: 0.94rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  padding-top: 1rem;
+}
+@media (min-width: 768px) {
+  .header .header-content p {
+    width: 100%;
+    max-width: 32rem;
+    margin: 0 auto;
+    padding-top: 0.9rem;
+  }
+}
+
+/* Card
+--------------------------------------*/
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 4.7rem 2rem 5rem 2rem;
+}
+@media (min-width: 768px) {
+  .cards {
+    display: grid;
+    grid-template-areas: "card1 card2 card4" "card1 card3 card4";
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
+    column-gap: 2.2rem;
+    row-gap: 2rem;
+    padding: 3.8rem 2rem 5rem 2rem;
+  }
+}
+
+.card {
+  background-color: white;
+  padding: 1.4rem 1.7rem 1.5rem 1.7rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 1rem #e6e6e6;
+}
+.card:nth-child(1) {
+  border-top: 0.25rem solid #45d3d3;
+}
+.card:nth-child(2) {
+  border-top: 0.25rem solid #ea5353;
+}
+.card:nth-child(3) {
+  border-top: 0.25rem solid #fcaf4a;
+}
+.card:nth-child(4) {
+  border-top: 0.25rem solid #549ef2;
+}
+@media (min-width: 768px) {
+  .card {
+    padding: 1.7rem 1.8rem 1.5rem 1.8rem;
+  }
+  .card:nth-child(1) {
+    grid-area: card1;
+    align-self: center;
+  }
+  .card:nth-child(2) {
+    grid-area: card2;
+  }
+  .card:nth-child(3) {
+    grid-area: card3;
+  }
+  .card:nth-child(4) {
+    grid-area: card4;
+    align-self: center;
+  }
+}
+.card h2 {
+  color: #4c4e61;
+  font-size: 1.2rem;
+  letter-spacing: 0.04rem;
+}
+.card p {
+  color: #a3a5ae;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.01rem;
+  padding-top: 0.2rem;
+}
+@media (min-width: 768px) {
+  .card p {
+    padding-top: 0.5rem;
+  }
+}
+.card-image {
+  padding-top: 1.8rem;
+  text-align: right;
+}
+@media (min-width: 768px) {
+  .card-image {
+    padding-top: 2.3rem;
+  }
+}
+.card-image img {
+  width: 3.5rem;
+}
+@media (min-width: 768px) {
+  .card-image img {
+    width: 4rem;
+  }
+}
+
+/*# sourceMappingURL=style.comp.css.map */
