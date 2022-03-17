@@ -16,19 +16,21 @@
   <body>
     <main>
       <!-- ********************  Header  ********************* -->
-      <section class="header">
+      <div class="header">
         <article class="header-content">
-          <h1>Reliable, efficient delivery</h1>
-          <h2>Powered by Technology</h2>
+          <h1>
+            Reliable, efficient delivery<br />
+            <strong>Powered by Technology</strong>
+          </h1>
           <p>
             Our Artificial Intelligence powered tools use millions of project
             data points to ensure that your project is successful
           </p>
         </article>
-      </section>
+      </div>
 
       <!-- ********************  Cards  ********************* -->
-      <section class="cards">
+      <div class="cards">
         <script>
           const elem = document.querySelector('.cards');
           elem.innerHTML = cards
@@ -38,14 +40,14 @@
                 <h2>${card.title}</h2>
                 <p>${card.content}</p>
                 <div class="card-image">
-                  <img src="./images/${card.image}" alt="${card.alt}" />
+                  <img src="./images/${card.image}" alt="" />
                 </div>
               </article>
             `
             )
             .join('');
         </script>
-      </section>
+      </div>
     </main>
     <footer class="attribution">
       <p>
