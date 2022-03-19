@@ -14,28 +14,29 @@
     <link rel="stylesheet" href="./css/style.comp.css" />
   </head>
   <body>
-    <main>
-      <!-- ********************  Header  ********************* -->
-      <div class="header">
-        <article class="header-content">
-          <h1>
-            Reliable, efficient delivery<br />
-            <strong>Powered by Technology</strong>
-          </h1>
-          <p>
-            Our Artificial Intelligence powered tools use millions of project
-            data points to ensure that your project is successful
-          </p>
-        </article>
-      </div>
+    <div class="container">
+      <main>
+        <!-- ********************  Header  ********************* -->
+        <div class="header">
+          <article class="header-content">
+            <h1>
+              Reliable, efficient delivery<br />
+              <strong>Powered by Technology</strong>
+            </h1>
+            <p>
+              Our Artificial Intelligence powered tools use millions of project
+              data points to ensure that your project is successful
+            </p>
+          </article>
+        </div>
 
-      <!-- ********************  Cards  ********************* -->
-      <div class="cards">
-        <script>
-          const elem = document.querySelector('.cards');
-          elem.innerHTML = cards
-            .map(
-              (card) => `
+        <!-- ********************  Cards  ********************* -->
+        <div class="cards">
+          <script>
+            const elem = document.querySelector('.cards');
+            elem.innerHTML = cards
+              .map(
+                (card) => `
               <article class="card">
                 <h2>${card.title}</h2>
                 <p>${card.content}</p>
@@ -44,24 +45,26 @@
                 </div>
               </article>
             `
-            )
-            .join('');
-        </script>
-      </div>
-    </main>
-    <footer class="attribution">
-      <p>
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-          Frontend Mentor</a
-        >.
-      </p>
-      <p>
-        Coded by
-        <a href="https://www.frontendmentor.io/profile/samsonsham"
-          >Samson Sham</a
-        >.
-      </p>
-    </footer>
+              )
+              .join('');
+          </script>
+        </div>
+      </main>
+      <footer class="attribution">
+        <p>
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+            Frontend Mentor</a
+          >.
+        </p>
+        <p>
+          Coded by
+          <a href="https://www.frontendmentor.io/profile/samsonsham"
+            >Samson Sham</a
+          >.
+        </p>
+      </footer>
+    </div>
+    <!-- End of container -->
   </body>
 </html>

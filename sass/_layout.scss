@@ -3,6 +3,8 @@ html {
 }
 body {
   font-family: $ff-primary;
+}
+.container {
   background-color: $clr-bg-body;
   height: auto;
   display: flex;

@@ -29,6 +29,9 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+.container {
   background-color: #fafafa;
   height: auto;
   display: flex;
